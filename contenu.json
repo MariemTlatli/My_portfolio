@@ -1,0 +1,39 @@
+{
+    "titre": "Mariem Tlatli",
+    "presentation": {
+        "intro": "Hi There, I'm",
+        "nom": "Mariem Tlatli",
+        "titre": "Frontend web developer",
+        "description": "I’m a front-end web developer with a strong passion for creating visually appealing and user-friendly web applications. I am very passionate about improving my coding skills & developing applications & websites. I have also gained a solid foundation in HTML, CSS, and JavaScript. I am always eager to learn new technologies and techniques to enhance my skillset.",
+        "informations": {
+            "age": 22,
+            "email": "tlatlimariem3@gmail.com",
+            "lieu": "Tunisia, Nabeul"
+        }
+    },
+    "competences": [
+        {"nom": "HTML", "image": "./img/HTML.png"},
+        {"nom": "CSS", "image": "./img/CSS.png"},
+        {"nom": "JavaScript", "image": "./img/JAVASCRIPT.png"},
+        {"nom": "PHP", "image": "./img/PHP.png"},
+        {"nom": "Python", "image": "./img/PYTHON.png"},
+        {"nom": "C", "image": "./img/C.png"},
+        {"nom": "C++", "image": "./img/C++.png"}
+    ],
+    "services": [
+        {"nom": "web development", "description": "Description du service 1"},
+        {"nom": "web development", "description": "Description du service 2"},
+        {"nom": "web development", "description": "Description du service 3"},
+        {"nom": "web development", "description": "Description du service 4"},
+        {"nom": "web development", "description": "Description du service 5"},
+        {"nom": "web development", "description": "Description du service 6"}
+    ],
+    "portfolio": [
+        {"nom": "Portfolio 1", "image": "./img/JAVASCRIPT.png", "lien": "#"},
+        {"nom": "Portfolio 2", "image": "./img/JAVASCRIPT.png", "lien": "#"},
+        {"nom": "Portfolio 3", "image": "./img/JAVASCRIPT.png", "lien": "#"},
+        {"nom": "Portfolio 4", "image": "./img/JAVASCRIPT.png", "lien": "#"},
+        {"nom": "Portfolio 5", "image": "./img/JAVASCRIPT.png", "lien": "#"},
+        {"nom": "Portfolio 6", "image": "./img/JAVASCRIPT.png", "lien": "#"}
+    ]
+}
