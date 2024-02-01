@@ -16,51 +16,37 @@
     <header id="home">
         <div class="navbar">
         <nav>
-            <a href="#home" id="logo">Mariem Tlatli</a>
-            <ul>
-                <li> <a href="#home">Home</a></li>
-                <li> <a href="#about">About</a></li>
-                <li> <a href="#services">Services</a></li>
-                <li> <a href="#portfolio">Portfolio</a></li>
-                <li> <a href="#contact">Contact</a></li>
-            </ul>    
+            <a href="#home" id="logo" class="titre"></a>
+            <ul id="menu"></ul>    
         </nav>
         </div>
-        <div class="header-content">
+        <div class="header-content" id="ImgProfileContainer">
             <div class="content-text">
-                <p> <span class="text-primary">Hi There, I'm </span></p>
-                <h1>Mariem Tlatli</h1>
-                <p class="title">Frontend web developer</p>
-                <div class="social">
-                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-square-github"></i></i></a>
-                </div>
-                <a href="#about" class="btn-primary"> About me <i class="fa-solid fa-circle-arrow-down"></i></a>
+                <p> <span class="text-primary" id="headerTitre"> </span></p>
+                <h1 id="headerNom" ></h1>
+                <p class="title" id="headerRole"></p>
+                <div class="social" id="socialContainer"></div>
+                <a href="#about" class="btn-primary" id="HeaderBtnText"><i class="fa-solid fa-circle-arrow-down"></i></a>
             </div>
-            <img src="img/profile.png" alt="Mariem Tlatli">
+            
         </div>
     </header>
     <main>
        <!-- about Start -->
        <section id="about">
         <div class="container">
-            <h2> About me </h2>
+            <h2>About Me</h2>
             <hr>
         <div class="about-content">
             <div class="col-1">
-                <h3> I'm <span class="text-primary"> Mariem Tlatli </span> a web developer</h3>
-                <p> I’m a front-end web developer with a strong passion for creating visually appealing and user-friendly web applications. I am very passionate about improving my coding skills & developing applications & websites.
-                </p>
-                <p>
-                    I have also gained a solid foundation in HTML, CSS, and JavaScript. I am always eager to learn new technologies and techniques to enhance my skillset.
-                </p>
+                <h3> I'm <span class="text-primary" id="nom"></span> a web developer</h3>
+                <p id="intro"></p>
+                <p id="description"></p>
             </div>
             <div class="col-2">
-                <p> <b> Age :</b> 22 </p> 
-                <p> <b> Email :</b> tlatlimariem3@gmail.com </p> 
-                <p> <b> Place :</b> Tunisia, Nabeul </p> 
+                <p> <b> Age :</b> <span id="age"></span> </p> 
+                <p> <b> Email :</b> <span id="email"></span></p> 
+                <p> <b> Place :</b> <span id="place"></span></p> 
                 
             </div>
         </div>
@@ -78,42 +64,7 @@
             <hr>
         
         <div class="skills-content">
-            <div class="row">
-                <div class="item">
-                    <img src="./img/HTML.png" alt="html">
-                    <p> HTML</p>
-                </div>
-
-                <div class="item">
-                    <img src="./img/CSS.png" alt="CSS">
-                    <p> CSS</p>
-                </div>
-
-                <div class="item">
-                    <img src="./img/JAVASCRIPT.png" alt="JAVASCRIPT">
-                    <p> JAVASCRIPT </p>
-                </div>
-
-                <div class="item">
-                    <img src="./img/PHP.png" alt="PHP">
-                    <p> PHP </p>
-                </div>
-
-                <div class="item">
-                    <img src="./img/PYTHON.png" alt="PYTHON">
-                    <p> PYTHON </p>
-                </div>
-
-                <div class="item">
-                    <img src="./img/C.png" alt="C">
-                    <p> C </p>
-                </div>
-
-                <div class="item">
-                    <img src="./img/C++.png" alt="C++">
-                    <p> C++</p>
-                </div>
-            </div>
+            <div class="row" id="imagesContainer"></div>
         </div>
     </div>
        </section>
@@ -125,38 +76,7 @@
                 <img src="./img/HTML.png" alt="services">
                     <h2>My <span class="text-primary"> Services</span></h2>
                 </div>
-                <div class="row">
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <h3>web development</h3>
-                        <p> description </p>
-                    </div>
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <h3>web development</h3>
-                        <p> description </p>
-                    </div>
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <h3>web development</h3>
-                        <p> description </p>
-                    </div>
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <h3>web development</h3>
-                        <p> description </p>
-                    </div>
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <h3>web development</h3>
-                        <p> description </p>
-                    </div>
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <h3>web development</h3>
-                        <p> description </p>
-                    </div>
-                </div>
+                <div class="row" id="ServicesContainer"></div>
             </div>
        </section>
        <!-- Services end -->
@@ -170,57 +90,7 @@
                 My <span class="text-primary"> Portfolio </span>
                 </h2>
     
-                <div class="row">
-                    <!-- Portfolio 1 -->
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <div class="item-content">
-                            <h3>web development</h3>
-                            <a href="#" target="_blank"> visit website </a>
-                        </div>
-                    </div>
-                    <!-- Portfolio 2 -->
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <div class="item-content">
-                            <h3>web development</h3>
-                            <a href="#" target="_blank"> visit website </a>
-                        </div>
-                    </div>
-                    <!-- Portfolio 3 -->
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <div class="item-content">
-                            <h3>web development</h3>
-                            <a href="#" target="_blank"> visit website </a>
-                        </div>
-                    </div>
-                    <!-- Portfolio 4 -->
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <div class="item-content">
-                            <h3>web development</h3>
-                            <a href="#" target="_blank"> visit website </a>
-                        </div>
-                    </div>
-                    <!-- Portfolio 5 -->
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <div class="item-content">
-                            <h3>web development</h3>
-                            <a href="#" target="_blank"> visit website </a>
-                        </div>
-                    </div>
-                    <!-- Portfolio 6 -->
-                    <div class="item">
-                        <img src="img/JAVASCRIPT.png" alt="">
-                        <div class="item-content">
-                            <h3>web development</h3>
-                            <a href="#" target="_blank"> visit website </a>
-                        </div>
-                    </div>
-                    
-                </div>
+                <div class="row" id="PortfolioContainer"></div>
             </div>
         </section>
         <!-- portfolio ends -->        
