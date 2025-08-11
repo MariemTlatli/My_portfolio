@@ -152,6 +152,11 @@ header .header-content img {
     font-weight: 600;
     letter-spacing: 1px;
 }
+#skills .item img {
+    width: 180px;     /* Taille fixe (ajuste selon tes besoins : 60px, 80px, 100px) */
+    height: 40px;    /* Garantit un carré parfait */
+    padding: 2px;    /* Espace intérieur pour un meilleur visuel */
+}   
 #about hr ,
 #skills hr , 
 #services hr ,
@@ -162,6 +167,7 @@ header .header-content img {
     border: none;
     margin: 5px auto 0;
 }
+
 #about .about-content{
     margin-top: 4rem;
     display: grid;
