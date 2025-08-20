@@ -280,7 +280,9 @@ line-height: 1.8;
     background-color: var(--primary-color)
 }
 #portfolio .row .item img{
-    max-width: 100%;
+    width: 100%;
+    height: 200px;      
+    display: block;  
     border-bottom : 2px solid #ccc;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -296,6 +298,7 @@ line-height: 1.8;
 #portfolio .row .item {
     background-color : #fff;
     border-radius : 5px ; 
+    width: 100%;
     transition: all 0.3s ease;
 }
 #portfolio .row .item:hover {
